@@ -30,12 +30,12 @@ variable "key_name" {
 
 # You can update this to match your personal public SSH key half.
 variable "public_key" {
-  default="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDABuFmeNzJtKfq/BhI5okytxj9a7J+eDlUCPozZdasQyXq3DSy4pOUO3brYMSiTCUX0eQseUVXjzUO4C7OojZKZ8dONaiUrBvj8icKB137mDzq5iSAZrbdnIQdjiNZC3/DQ6W0PMHk4SZez0Z5oKikbP/l/E8zRxnfWJHXiogYogOdtqxZdx4SshDy2iPsReINFJNIwJJB0cbZB35fhxRAghSmf3MWjkPeHzLE+6fZD3HszzZ7g7ngDN1E5MRqH06tqeRDboTypOrH5CcUjergq2xwJ9/eSdbtrKY4uGG5U/6RTo0hA/kcLW9AmBsHlCvpn5YnLKhswETCkEOCsqHZ thedevilsvoice@grimoire"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1/GsTruPapf29LdAMCeFZklAimeIN49fyOSk+ZgdEDNABvJsgFA5eY4PRP41onu0a1aY1cIhXj26Jr8GgsrqQCiPa3Nyj800OF0HLpHNuVUHhtm+g6Avhi/z5FuZjw72TOK2roXytSoevl5hEaYxqMtFBKg7KqyWxpfS+JKcdLsoIpuvCEkwpQqbF+GOmPdaAiN0rSsqf40hKAf9gyi85WZ8jJgM9c0QoNsVJoyIuA2qtidevJGWEXx4bWqf08RIclMeoT8NXjiWZcbRceDZlgCqmx2rCaLQLfaxWvD9GeheB4xTMeN0vY2SrLDyEXS6vVtb2N/62gqd77m6yvsYR spencerhorn@Endure-Unspecified.local"
   description = "SSH Public key half to use for centos on the new host"
 }
 
 variable "key_path" {
-  default = "/home/thedevilsvoice/.ssh/do_terra_rsa"
+  default = "/home/spencerhorn/codemash_as_a_code"
   description = "Path to your SSH private key half on local dev machine"
 }
 
